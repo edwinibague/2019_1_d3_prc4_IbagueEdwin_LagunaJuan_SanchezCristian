@@ -28,6 +28,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Validar_clicked()
 {
+
+
+
     QString Documento = ui->CC->text();
     QString Pass = ui->Password->text();
 
