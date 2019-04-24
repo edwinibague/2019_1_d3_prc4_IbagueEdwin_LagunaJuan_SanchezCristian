@@ -10,5 +10,15 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
+
     delete ui;
 }
+
+
+void MainWindow::on_Validar_clicked()
+{
+	QString Documento = Ui->CC->text();
+	QString Documento = Ui->Password->text();
+
+}
+
