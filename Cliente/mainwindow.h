@@ -28,6 +28,7 @@ private:
     Consulta consulta;
     menu Menu;
 
+    const char *name_pipe = "Pipe";
 };
 
 

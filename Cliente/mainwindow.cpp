@@ -11,7 +11,6 @@
 #include "ui_mainwindow.h"
 
 
-
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -31,6 +30,16 @@ void MainWindow::on_Validar_clicked()
     QString Documento = ui->CC->text();
     QString Pass = ui->Password->text();
 
-    Menu.show();
+    int id;
+    id = shm_open(name_pipe,O_CREAT|O_EXCL,0666);
+    if(id == -1)
+    {
+        shm_unlink(name_pipe);
+    }
+    else
+    {
+        Menu.show();
+    }
+
 }
 
