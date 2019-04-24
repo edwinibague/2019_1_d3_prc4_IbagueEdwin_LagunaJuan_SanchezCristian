@@ -30,17 +30,17 @@
    <widget class="QLineEdit" name="CC">
     <property name="geometry">
      <rect>
-      <x>102</x>
+      <x>103</x>
       <y>50</y>
       <width>161</width>
       <height>31</height>
      </rect>
     </property>
     <property name="inputMask">
-     <string>C.C.       </string>
+     <string/>
     </property>
     <property name="maxLength">
-     <number>11</number>
+     <number>12</number>
     </property>
    </widget>
    <widget class="QLineEdit" name="Password">
@@ -53,10 +53,10 @@
      </rect>
     </property>
     <property name="inputMask">
-     <string>Pass</string>
+     <string/>
     </property>
     <property name="text">
-     <string>Pass</string>
+     <string/>
     </property>
     <property name="maxLength">
      <number>4</number>
@@ -69,19 +69,6 @@
     </property>
     <property name="readOnly">
      <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="salida">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>140</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
     </property>
    </widget>
   </widget>

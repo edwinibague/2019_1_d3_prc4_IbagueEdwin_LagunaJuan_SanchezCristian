@@ -3,6 +3,8 @@
 
 
 #include <QMainWindow>
+#include<consulta.h>
+#include<menu.h>
 
 namespace Ui {
 class MainWindow;
@@ -22,6 +24,11 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    Consulta consulta;
+    menu Menu;
+
+    const char *name_pipe = "Pipe";
 };
 
 
