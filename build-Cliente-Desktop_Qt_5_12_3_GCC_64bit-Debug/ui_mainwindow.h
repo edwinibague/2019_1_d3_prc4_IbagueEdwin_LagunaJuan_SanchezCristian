@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -29,7 +28,6 @@ public:
     QPushButton *Validar;
     QLineEdit *CC;
     QLineEdit *Password;
-    QLabel *label;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -46,7 +44,7 @@ public:
         Validar->setGeometry(QRect(150, 170, 80, 25));
         CC = new QLineEdit(centralWidget);
         CC->setObjectName(QString::fromUtf8("CC"));
-        CC->setGeometry(QRect(102, 50, 161, 31));
+        CC->setGeometry(QRect(103, 50, 161, 31));
         CC->setMaxLength(12);
         Password = new QLineEdit(centralWidget);
         Password->setObjectName(QString::fromUtf8("Password"));
@@ -55,9 +53,6 @@ public:
         Password->setAlignment(Qt::AlignCenter);
         Password->setDragEnabled(false);
         Password->setReadOnly(false);
-        label = new QLabel(centralWidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(280, 150, 71, 41));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -82,7 +77,6 @@ public:
         CC->setInputMask(QString());
         Password->setInputMask(QString());
         Password->setText(QString());
-        label->setText(QString());
     } // retranslateUi
 
 };

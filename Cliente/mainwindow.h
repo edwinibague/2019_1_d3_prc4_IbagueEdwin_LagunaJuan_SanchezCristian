@@ -4,6 +4,7 @@
 
 #include <QMainWindow>
 #include<consulta.h>
+#include<menu.h>
 
 namespace Ui {
 class MainWindow;
@@ -25,6 +26,8 @@ private:
     Ui::MainWindow *ui;
 
     Consulta consulta;
+    menu Menu;
+
 };
 
 

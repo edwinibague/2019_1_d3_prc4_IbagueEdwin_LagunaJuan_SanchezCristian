@@ -26,19 +26,28 @@ CONFIG += c++11
 
 SOURCES += \
         consulta.cpp \
+        datos.cpp \
+        depositar.cpp \
         main.cpp \
         mainwindow.cpp \
-        menu.cpp
+        menu.cpp \
+        retirar.cpp
 
 HEADERS += \
         consulta.h \
+        datos.h \
+        depositar.h \
         mainwindow.h \
-        menu.h
+        menu.h \
+        retirar.h
 
 FORMS += \
         consulta.ui \
+        datos.ui \
+        depositar.ui \
         mainwindow.ui \
-        menu.ui
+        menu.ui \
+        retirar.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
