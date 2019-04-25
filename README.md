@@ -62,4 +62,9 @@ Posteriormente se procede a implementar la funcionalidad de l segundo botón, do
 --- ACÁ PONE SU PARTE IBAGUÉ ---
 
 ## Análisis de Resultados
+
+
 ## Conclusiones
+* La culminación de la práctica no pudo ser satisfactoria debido a la falta de fundamentos sólidos de los practicantes en cuanto a la comunicación entre terminales debido al cambio de lenguaje que éstas llevan.
+
+* 
