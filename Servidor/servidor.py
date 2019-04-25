@@ -89,6 +89,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.label.hide()
 		self.label_2.hide()
 		self.label_3.hide()
+		self.label_4.hide()
+		self.label_5.hide()
+		self.label_6.hide()
+		self.label_7.hide()
+		self.label_8.hide()
+		self.label_9.hide()
+		self.label_10.hide()
+		self.label_11.hide()
 
 		self.textEdit.hide()
 		self.textEdit_2.hide()
@@ -102,19 +110,38 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.pushButton_7.hide()
 		self.pushButton_8.hide()
 		self.pushButton_9.hide()
-		self.listWidget.hide()
+		self.tableWidget.hide()
 
-	def pushButton_clicked(self):#Consultar Cuenta
+	def pushButton_2_clicked(self):#Consultar Cuenta
 		
 		self.clear()
 
 		self.label.move(155, 20)
 		self.label.resize(300,50)
-		self.label.setText("Consultar Cuenta")
+		self.label.setText("Consultar Cliente")
 		self.label.show()
 		
+		self.pushButton_8.move(400, 300)
+		self.pushButton_8.setText("Regresar")
+		self.pushButton_8.show()
+
+		self.label_4.show()
+		self.label_5.show()
+		self.label_6.show()
+		self.label_7.show()
+
+		self.label_8.setText("C.C. 10004567")
+		self.label_8.show()
+		self.label_9.setText("C.C. 10005678")
+		self.label_9.show()
+		self.label_10.setText("C.C. 10007892")
+		self.label_10.show()
+		self.label_11.setText("C.C. 110002112")
+		self.label_11.show()
+		#newItem = QTableWidgetItem(tr("%s" % ((row+1)*(column+1))))
+		#tableWidget.setItem(0, 0, newItem)
 		#TableWidget = QTableWidget()
-		TableWidget.setRow
+		##TableWidget.setRowCount(4)
 
 
 
@@ -147,8 +174,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 		
-	def pushButton_2_clicked(self):#Consultar Cuenta
+	def pushButton_clicked(self):#Consultar Cuenta
 		
+
+
 		self.clear()
 
 		self.label.move(155, 20)
@@ -181,6 +210,31 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.label_3.show()
 		self.textEdit.show()
 		self.textEdit_2.show()
+
+		self.clear()
+
+		self.label.move(155, 20)
+		self.label.resize(300,50)
+		self.label.setText("Consultar Cuenta")
+		self.label.show()
+		
+		self.pushButton_8.move(400, 300)
+		self.pushButton_8.setText("Regresar")
+		self.pushButton_8.show()
+
+		self.label_4.show()
+		self.label_5.show()
+		self.label_6.show()
+		self.label_7.show()
+
+		self.label_8.setText("Num Cuenta 123")
+		self.label_8.show()
+		self.label_9.setText("Num Cuenta 456")
+		self.label_9.show()
+		self.label_10.setText("Num Cuenta 321")
+		self.label_10.show()
+		self.label_11.setText("Num Cuenta 789")
+		self.label_11.show()
 
 	def pushButton_3_clicked(self):#Consultar Cuenta
 		
