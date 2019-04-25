@@ -17,6 +17,36 @@ En primera instancia se decidió hacer la interfaz del funcionario en lenguaje p
 ```bash
 $ designer
 ```
+Posteriromente, se procedió a hacer el diseño de la ventana inicial, el que se verá en la interfaz bancaria y del cual se parte para hacer todos los procesos:
+
+![Pantalla_Inicial](https://user-images.githubusercontent.com/47603242/56759934-b489e200-675f-11e9-9373-c81e77f8974e.png)
+
+Como se puede ver, se parte de 9 botones presionables (pushbuttons) los cuales van a ser los que guien al funcionario a realizar cualquier tipo de transacción que sea necesaria, dándole las siguientes opciones:
+
+* Consultar cuenta
+* Consultar o Modificar Cliente
+* Bloquear o Desbloquear Cuenta
+* Crear Cuenta
+* Crear Cliente
+* Depositar o Retirar
+* Consultar
+
+Ya después de haber diseñado la pantalla inicial,se procede a realizar las primeras funciones de los botones, para lo cual se codifica un total de 4 arreglos en los cuales se van a guardar los datos de los clientes, además de que se determinan los primeros 4 clientes inscritos en el sistema del Banco, los cuales son:
+
+* Juan Laguna
+* Edwin Ibague
+* Giovanny Sanchez
+* Alexander Arboleda
+
+y se codificó de la siguiente manera:
+
+```bash
+  cuentas = [123456, 234567, 345678]
+	nombre = ["Juan", "Edwin", "Giovanny", "Alexander"]
+	apellido = ["Laguna", "Ibague", "Sanchez", "Arboleda"]
+	cedula = [10004567, 10005678, 10007892, 10002112]
+	contraseña = ["0000", "0000", "0000", "0000"]
+```
 
 *De esta forma se desarrolló la Interfaz del Cliente, la cual se desarrolló en lenguaje C++*
 
