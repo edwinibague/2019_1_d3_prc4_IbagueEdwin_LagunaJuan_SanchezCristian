@@ -30,16 +30,32 @@ void MainWindow::on_Validar_clicked()
     QString Documento = ui->CC->text();
     QString Pass = ui->Password->text();
 
-    int id;
-    id = shm_open(name_pipe,O_CREAT|O_EXCL,0666);
-    if(id == -1)
-    {
-        shm_unlink(name_pipe);
-    }
-    else
-    {
+//    pid_t pid;
+
+
+//    pid = fork();
+
+//    if(pid<0)
+//    {
+
+//    }
+//    if(pid > 0)
+//    {
+
+//    }
+ //   int id;
+//    id = shm_open(name_pipe,O_CREAT|O_EXCL,0666);
+//    if(id == -1)
+//    {
+//        shm_unlink(name_pipe);
+//    }
+//    else
+//    {
+//        id = shm_open(name_pipe,O_WRONLY,0666);
+
+
         Menu.show();
-    }
+//    }
 
 }
 
