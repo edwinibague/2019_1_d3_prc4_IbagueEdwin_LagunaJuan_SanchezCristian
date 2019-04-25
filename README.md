@@ -13,3 +13,11 @@ Interfaz es un término que procede del vocablo inglés interface. En informáti
 
 ## Procedimiento
 
+
+
+*De esta forma se desarrolló la Interfaz del Cliente, la cual se desarrolló en lenguaje C++*
+
+--- ACÁ PONE SU PARTE IBAGUÉ ---
+
+## Análisis de Resultados
+## Conclusiones
