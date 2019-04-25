@@ -41,12 +41,21 @@ Ya después de haber diseñado la pantalla inicial,se procede a realizar las pri
 y se codificó de la siguiente manera:
 
 ```bash
-  cuentas = [123456, 234567, 345678]
-	nombre = ["Juan", "Edwin", "Giovanny", "Alexander"]
+  	cuentas = [123456, 234567, 345678]
+  	nombre = ["Juan", "Edwin", "Giovanny", "Alexander"]
 	apellido = ["Laguna", "Ibague", "Sanchez", "Arboleda"]
 	cedula = [10004567, 10005678, 10007892, 10002112]
 	contraseña = ["0000", "0000", "0000", "0000"]
 ```
+Luego, a la hora de presionar el botón de "consultar cliente" se imprime en la ventana una tabla la cual contiene dos columnas y 4 filas en el momento, así se mostrarán los nombres de la totalidad de los clientes y sus respectivas cuentas.
+Para éste caso, y mientras se interconectan las interfaces de cliente y banco, se mostrarán los 4 clientes preciamente mencionados:
+
+![Consultar Cuenta](https://user-images.githubusercontent.com/47603242/56762478-92935e00-6765-11e9-861c-6acbfb26a859.png)
+
+Posteriormente se procede a implementar la funcionalidad de l segundo botón, donde se va a consultar la cantidad de clientes inscritos y también se mostrarán sus respectivos documentos de identidad, pero asimismo se podrán modificar los datos de los mismos.
+
+![consultar cliente](https://user-images.githubusercontent.com/47603242/56763045-f36f6600-6766-11e9-8c2c-084a5683ca96.png)
+
 
 *De esta forma se desarrolló la Interfaz del Cliente, la cual se desarrolló en lenguaje C++*
 
