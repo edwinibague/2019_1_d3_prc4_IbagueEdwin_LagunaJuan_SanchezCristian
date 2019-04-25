@@ -8,7 +8,7 @@ _Palabras clave: Servidor, Interfaz Bancaria, Cliente, Cuenta, Depósito, Retiro
 
 ## Introducción
 
-Interfaz es un término que procede del vocablo inglés interface. En informática, esta noción sirve para señalar a la conexión que se da entre dos o más dispositivos o sistemas. Asimismo, una interfaz bancaria es aquella que permite a un cliente comunicarse con su banco con el fin de hacer cualquier transacción que éste considere pertinente. La interfaz, en este caso, está compuesta por los puntos de contacto entre un usuario (cliente) y el Banco.
+Interfaz es un término que procede del vocablo inglés interface. En informática, esta noción sirve para señalar a la conexión que se da entre dos o más dispositivos o sistemas. Asimismo, una interfaz bancaria es aquella que permite a un cliente comunicarse con su banco con el fin de hacer cualquier transacción que éste considere pertinente. La interfaz, en este caso, está compuesta por los puntos de contacto entre un usuario (cliente) y el Banco. La interfazz del Banco será realizada en lenguaje Python y la interfaz del cliente será desarrollada en lenguaje C++. 
 
 
 ## Procedimiento
