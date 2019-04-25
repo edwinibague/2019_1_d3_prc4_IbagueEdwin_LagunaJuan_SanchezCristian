@@ -15,7 +15,7 @@ Interfaz es un término que procede del vocablo inglés interface. En informáti
 En primera instancia se decidió hacer la interfaz del funcionario en lenguaje python como se especificaba en lso requerimientos, por lo que se recurrió a abrir una ventana de qt con el uso del diseñador de qt, el cual se abre mediante el siguiente comando en el terminal:
 
 ```bash
-designer
+$ designer
 ```
 
 *De esta forma se desarrolló la Interfaz del Cliente, la cual se desarrolló en lenguaje C++*
